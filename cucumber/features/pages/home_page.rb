@@ -11,7 +11,8 @@ module Bazar
 
       def enviar_email(email)
         input_email.set(email)
-        first("div[class='coluna span3 esquerda'] button").click
+        btn_enviar.click
+        # first("div[class='coluna span3 esquerda'] button").click
       end
     end
   end
