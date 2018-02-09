@@ -1,9 +1,11 @@
 ##YAML Template
 ---
-default: -p html_report -p chrome -p dev
-html_report: --format pretty --format html --out=features_report.html
-json_report: --format progress --format json --out=features_report.json
+default: -p html_report -p chrome -p dev -p ci
+html_report: --format html --out=features_report.html
+json_report:  --format json --out=features_report.json
 firefox: BROWSER=firefox
+ci: --format progress 
+pretty: --format pretty 
 chrome: BROWSER=chrome
 poltergeist: BROWSER=poltergeist
 safari: BROWSER=safari
