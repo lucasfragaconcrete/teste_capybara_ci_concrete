@@ -3,9 +3,9 @@
 default: -p html_report -p chrome -p dev -p ci
 html_report: --format html --out=features_report.html
 json_report:  --format json --out=features_report.json
-firefox: BROWSER=firefox
 ci: --format progress 
 pretty: --format pretty 
+firefox: BROWSER=firefox
 chrome: BROWSER=chrome
 poltergeist: BROWSER=poltergeist
 safari: BROWSER=safari

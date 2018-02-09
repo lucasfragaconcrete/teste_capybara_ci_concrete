@@ -23,4 +23,4 @@ Funcionalidade: Enviar email valido
     Cenario: Nao enviar ofertas para email invalido
         Dado que eu tenha um email invalido
         Quando digitar o email invalido para receber ofertas
-        Então devo receber a critica "E-mail inválido, por favor infome um e-mail válidooo"
+        Então devo receber a critica "E-mail inválido, por favor infome um e-mail válido"
