@@ -27,6 +27,7 @@ _enviar_email.feature: 3 cenários para envio de email no bazar da sammy.
 _enviar_email_steps: Validações feitas através do **.rspec**
 
 **OBS:**
+
 _para rodar os teste => Clonar o projeto.
 
 _instalar o bundle: gem install bundler
